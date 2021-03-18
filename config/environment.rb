@@ -1,6 +1,11 @@
 # Load the Rails application.
 require_relative "application"
 
+
+# Initialize the Rails application.
+Rails.application.initialize!
+
+
 require 'rubygems' if RUBY_VERSION < '1.9'
 require 'rest-client'
 require 'json'
@@ -20,5 +25,3 @@ ActionMailer::Base.smtp_settings = {
 
 
 
-# Initialize the Rails application.
-Rails.application.initialize!
