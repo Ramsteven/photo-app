@@ -5,7 +5,7 @@
 </script>
 <h1><%= t('.sign_up') %></h1>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name), class: 'cc-form') do |f| %>
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html:{ class: 'cc-form' }) do |f| %>
   <%= bootstrap_devise_error_messages! %>
 
   <div class="form-group">

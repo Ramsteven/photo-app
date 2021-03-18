@@ -12,3 +12,4 @@ import "jquery"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+import "../credit_card_form"
